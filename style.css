@@ -1,0 +1,42 @@
+html,
+body,
+header {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    background-image: url("./images/7027728-music-abstract-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card .card-title{
+    font-size: 2rem;
+}
+
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+}
+.more-padding-down{
+    padding-top: 15px;
+}
