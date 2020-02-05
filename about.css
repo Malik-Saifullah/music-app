@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h3 {
+    text-transform: capitalize;
+}
+
+/*=============================================
+                footer section
+==============================================*/
+
+footer {
+    background-color: #000;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    margin-bottom: 0 !important;
+    bottom: 0 !important;
+}
+
+footer ul {
+    background-color: #000;
+    list-style-type: none;
+}
+
+footer ul li {
+    padding-left: 0;
+    display: inline-block;
+}
+
+footer ul li a {
+    padding: 10px;
+    font-size: 25px;
+}
+
+
+/*=============================================
+                About Us page
+==============================================*/
+
+#about-us {
+    margin-top: 200px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+#about-us img {
+    width: 100%;
+    height: 100% !important;
+}
+
+#about-us .container h3 {
+    font-size: 3vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-bottom: 5%;
+}
+
+#about-us .container p {
+    font-size: 1.7vw;
+    color: gray;
+    font-weight: 400;
+}
+
+@media (max-width: 767px) {
+    #about-us .container img {
+        margin-bottom: 10% !important;
+    }
+
+    #about-us .container h3 {
+        margin-top: 5% !important;
+        font-size: 4vw;
+        font-weight: 700;
+        text-decoration: underline gray;
+    }
+
+    #about-us .container p {
+        padding: 30px;
+        font-size: 2.5vw;
+        box-shadow: 9px 11px 15px 3px rgba(0, 0, 0, 0.43);
+        -webkit-box-shadow: 9px 11px 15px 3px rgba(0, 0, 0, 0.43);
+        -moz-box-shadow: 9px 11px 15px 3px rgba(0, 0, 0, 0.43);
+    }
+}
+
+@media(min-width: 480px) and (max-width: 575px) {
+    header .container h3 {
+        margin-left: 10%;
+    }
+
+    #about-us {
+        margin-top: 150px;
+    }
+
+    #about-us .container h3 {
+        font-size: 6vw;
+    }
+
+    #about-us .container p {
+        font-size: 4vw;
+    }
+}
+
+@media(max-width: 479px) {
+    header .container h3 {
+        margin-left: 10%;
+    }
+
+    #about-us {
+        margin-top: 150px;
+    }
+
+    #about-us .col-md-6 .container {
+        padding: 0;
+    }
+
+    #about-us .container h3 {
+        font-size: 30px;
+    }
+
+    #about-us .container p {
+        padding: 10px;
+        font-size: 25px;
+    }
+}
+
+/*=============================================
+                Contact Us page
+==============================================*/
+
+#contact-us {
+    margin-top: 200px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+#contact-us img {
+    width: 100%;
+    height: 100% !important;
+}
+
+#contact-us .container h3 {
+    font-size: 3vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+#contact-us .container address {
+    font-size: 1.6vw;
+}
+
+#contact-us .container address strong {
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#contact-us .container address span a {
+    text-decoration: none;
+    color: gray;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 767px) {
+
+    header .container h3 {
+        margin-left: 10%;
+    }
+
+    #contact-us .container img {
+        margin-bottom: 10% !important;
+    }
+
+    #contact-us .container h3 {
+        margin-top: 5% !important;
+        font-size: 4vw;
+        font-weight: 700;
+        text-decoration: underline gray;
+    }
+
+    #contact-us .container address {
+        margin-top: 3%;
+        padding: 30px;
+        font-size: 2.5vw;
+        box-shadow: 9px 11px 15px 3px rgba(0, 0, 0, 0.43);
+        -webkit-box-shadow: 9px 11px 15px 3px rgba(0, 0, 0, 0.43);
+        -moz-box-shadow: 9px 11px 15px 3px rgba(0, 0, 0, 0.43);
+    }
+}
+
+@media(min-width: 480px) and (max-width: 575px) {
+    header .container h3 {
+        margin-left: 10%;
+    }
+
+    #contact-us {
+        margin-top: 150px;
+    }
+
+    #contact-us .container h3 {
+        font-size: 6vw;
+    }
+
+    #contact-us .container address {
+        font-size: 4vw;
+    }
+}
+
+@media(max-width: 479px) {
+    header .container h3 {
+        margin-left: 10%;
+    }
+
+    #contact-us {
+        margin-top: 150px;
+    }
+
+    #contact-us .container h3 {
+        font-size: 6vw;
+    }
+
+    #contact-us .container address {
+        font-size: 4vw;
+    }
+}
